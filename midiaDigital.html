@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>REDIMENCIONANDO IMAGENS, DIMINUA E AUMENTE A ABA DO SITE PARA VER</h1>
+    
+    <picture>
+        <!--ESTA PARTE FUNCIONA COMO SE FOSSE UM IF ELSE
+            SE A QUANTIDADE DE PX NA TELA FOR MAIOR QUE 750 ELE MOSTRA A IMAGEM M SENÃO ELE MOSTA A IMAGEM P
+        -->
+        <source media="(max-width:750px )" srcset="images/p.png" type="image/png">
+        <!--MESMA COISA NESTA PARTE SE FOR MAIOR QUE 1050 ELE MOSTRA A IMAGEM G-->
+        <source media="(max-width:1050px )" srcset="images/m.png" type="image/png">
+        <img src="images/g.png" alt="Imagem Flexivel">
+    </picture><!--Criado para mexer com img-->
+
+    <h1>AUDIOS PARA SITES</h1>
+    <audio preload="metadata" autoplay controls loop >
+        <source src="audio/alternative.mp3" type="audio/mpeg">
+        <source src="audio/alternative.ogg" type="audio/ogg">
+        <source src="audio/alternative.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não reproduz audio
+            clique aqui para <a href="audio/alternative.mp3">download</a>
+        </p>
+    </audio>
+    <br>
+    <h1>VIDEOS PARA SITES</h1>
+    <video width="300" height="550" poster="images/Ceuzinho.png" controls autoplay loop>
+        <source src="videos/ceu.mp4" type="video/mp4">
+    </video>
+
+    <h1>VIDEOS ONLINE - YOUTUBE</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vzHrjOMfHPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

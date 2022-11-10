@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!--Acentuação-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--100% da visualização da pagina em web-->
+     <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+    <title>Meu primeiro site</title>
+    <style>
+        body{
+            background-color: rosybrown;
+        }
+        mark{
+            background-color: brown;
+        } /*mudando a cor do marcatexto*/
+        
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo</h1>
+    <hr> 
+    <p>Aperfeicoando meus conhecimentos em <mark>HTML, CSS e JS</mark></p>
+    <p>Você pode estrever 
+        de qualquer modo
+        que o site entende
+        <br> Usando <strong>&lt;BR&gt;</strong> vc pode quebrar linhas
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        A sequi quibusdam pariatur placeat excepturi aliquam, ipsum, eveniet 
+        fugiat molestias laboriosam maiores corrupti temporibus aspernatur consectetur? 
+        Similique nisi odio laudantium dolore.</p> <!--CRIADOR DE TEXTOS AUTOMATICOS-->
+
+    <p>X<sub>2</sub>O</p> <!--SUB-->
+    <p>X<sup>20</sup>+ 3</p> <!--SUP-->  
+
+    <h1>SIMBOLOS & EMOJIS</h1>
+    <p>
+        &copy;
+        &delta;
+        &empty;
+        &larr;
+        &uarr;
+        &rarr;
+        &darr;
+        <br>
+        &#x1FA81;
+        &#x1F363;
+        &#x1F986;
+        &#x1F60D;
+
+    </p>
+
+    <h1>IMAGENS</h1>
+    <p>Unsplash</p>
+    <img title="Guerreiro" src="images/Guerreiro.jpg" > <!--Ctrl + Espaço-->
+    <p>Pexels</p>
+    <img title="Bruxa" src="images/Bruxa.jpg"> <!--Ctrl + Espaço-->
+    <p>Internet</p>
+    <img title="Elfa" src="https://p4.wallpaperbetter.com/wallpaper/604/653/298/archery-model-archer-cosplay-wallpaper-preview.jpg">
+
+    <h1>TEXTOS BASICOS</h1> <!--SELECIONAR (Ctrl + Shift + P) <abb> Enter (ESCREVER O QUE DESEJAR)-->
+        <em>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur quidem exercitationem,
+            illum eaque laborum natus alias veniam illo odit quam,
+            corrupti laudantium a rem quos facilis adipisci vero. Est, sapiente.
+        </em>
+        <p>Lorem ipsum dolor sit amet consectetur, <strong>adipisicing elit</strong>. Praesentium magni quaerat at sit ipsam corporis libero iusto. Sit vel omnis consequatur ducimus ipsa exercitationem blanditiis eius esse atque in. Blanditiis?</p> <!--WRAP-->
+        <p>Lorem, <mark  style="background-color:cornflowerblue;">ipsum dolor sit amet</mark> consectetur adipisicing elit. Consequuntur officia at, nisi rem autem aliquid, voluptatum dolorem suscipit temporibus libero voluptatibus. Sint autem natus non <mark>eaque explicabo?</mark> Laboriosam, eius nemo.</p> <!--Mudando a cor de somente um marcatexto-->
+        <p><big>Lorem ipsum dolor sit amet consectetur adipisicing elit.</big> 
+            <small>Distinctio praesentium ducimus</small> 
+            <del>necessitatibus consectetur saepe, nostrum,</del>
+            <ins>mollitia iure nulla aliquid magnam nihil hic nesciunt culpa,</ins> iusto optio odit voluptatum. Sapiente, quis!</p>
+        <p><code>Usando code para fazer uma fonte mono espaçada ou seja do mesmo tamanho cada caracter</code></p>    
+
+        <pre>
+            <code>
+num = int(input('Digite um numero'))
+if num % 2 == 0:
+    print('{num} é par')
+else:
+    print('{num} é impar')
+print('Fim do programa')        
+            </code>
+        </pre> <!--Usado para mostrar quebra de linhas na visualização do site, pula linha, tabs...-->
+        <p>Como diria um pai de um amigo:<q> O computador é um burro muito rápido</q></p> <!--SITACAO <q> =  ("")-->
+
+        <blockquote cite="https:lorem mesmo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consectetur minus ea laudantium alias veritatis, aspernatur quibusdam officiis maxime voluptates magnam hic dignissimos numquam unde iusto ex modi quis deserunt!</blockquote> <!--Blockquote citacoes longas e cite é de onde pegou a citacao mas so aparece no codigo fonte-->
+        <p><bdo dir="ltr">olá mundo</bdo></p>
+        <p><bdo dir="rtl">olá mundo</bdo></p>
+
+        <p>Eu jogo de <abbr title="SUPORTE">Sup</abbr> e <abbr title="Ad Carry">Adc</abbr></p>
+
+        <h3>TOP ADC QUE AMO</h3>
+        <ol type="1" start="0">
+            <li>Twitch
+            <li>Jhin
+            <li>Miss Fortune
+            <li>Tristana
+            <li>Jinx
+        </ol>
+        <h3>TOP SUP QUE AMO</h3>
+        <ol type="I">
+            <li>Soraka
+            <li>Rakan
+            <li>Taric
+            <li>Zilean
+            <li>Leona    
+        </ol>
+        <h3>Champs que eu odeio</h3> <!--Alt + Botao direito faz criar mais cursores-->
+        <ol type="A">
+            <li>Tryndamer
+            <li>Master Yi
+            <li>Garen
+            <li>Vex
+            <li>Swain    
+        </ol>
+        <h3>JOGOS QUE EU AMO</h3>
+            <ol type="a" >
+                <li>Pixel Art</li>
+                <ul type="disc">
+                    <li>Pokemon GB</li>
+                    <li>Stardew Valley</li>
+                    <li>The Escapist</li>
+                </ul>
+                <li>Jogos 2D</li>
+                <ul type="square">
+                    <li>Grand Chase</li>
+                    <li>Epic Battle Fantasi</li>
+                    <li>Plant vs Zoombies</li>
+                </ul>
+            </ol>
+        <h3>Lista de Definição</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Linguagem de marcação para a criação estrutura de um site</dd>
+                <dt>CSS</dt>
+                <dd>Linguagem de marcação para a criação designer de um site</dd>
+                <dt>JS</dt>
+                <dd><dd>Linguagem de programação para a criação de um site</dd></dd>
+            </dl>    
+        <h2>LINKS:</h2>
+        <p>VOCE PODE ACESSAR ESTE LINK? <a href="https://animesonline.cc/tv/" target="_blank" rel="external"> Animes Online</a></p> <!-- _blank abre nova janela -->
+        <h2>Links para Download</h2>
+        <ul>
+            <li><a href="PDF/animais.pdf" download="animais.pdf" type="application/pdf"> Baixar PDF</a></li>
+            <li><a href="PDF/animais.rar" download="animais.zip" type="application/zip"> Baixar COMPACTADO</a></li>
+        </ul>
+    </body>
+</html>
